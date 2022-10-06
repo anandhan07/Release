@@ -1,3 +1,26 @@
+# Build Date: 05-Oct-2022
+
+## Device Changelog
+- Unitrix Kernel 4.9.330
+- Updated GrapheneOSCamera to v.51
+- Switched Audio Hal to V7
+- Added Smart Charging
+- Switched to AOSP Health.
+- Wifi scan improvements.
+- Dropped redundant zram writeback.
+- Set 50% zram of the total RAM.
+- Set swappiness to 60.
+- Tweaked dalvik props for 3GB & 4GB variants properly and moved it into libinit.
+- GPS accuracy improvements.
+- Perfd blob fixes.
+- Reduced UI lag while screenrecording.
+- Tuned surfaceflinger duration props for better performance.
+- Optimized system performance and improved stability.
+
+## Source Changelog
+- September Security Patch merged
+- Lineage upstream
+
 # Build Date: 23-July-2022
 
 ## Device Changelog
