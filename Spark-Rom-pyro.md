@@ -1,5 +1,10 @@
 # Device Changelogs
 
+## 16-Nov-2022
+- Fixed freezing issues in some cases.
+- Tuned surfaceflinger props for smoothness and better response.
+- Fixed notification delay in some apps.
+
 ## 15-Nov-2022
 - Unitrix kernel 4.9.333
 - Updated Display/Graphics stack from LA.UM.10.6.2.r1-01600-89xx.0.
