@@ -1,11 +1,11 @@
 # Device Changelogs
 
-## 16-Nov-2022
+## 16-Nov-2022 (v13.2)
 - Fixed freezing issues in some cases.
 - Tuned surfaceflinger props for smoothness and better response.
 - Fixed notification delay in some apps.
 
-## 15-Nov-2022
+## 15-Nov-2022 (v13.2)
 - Unitrix kernel 4.9.333
 - Updated Display/Graphics stack from LA.UM.10.6.2.r1-01600-89xx.0.
 - Updated Audio, Display, Media HALs from LA.UM.10.6.2.r1-02500-89xx.0.
@@ -22,7 +22,7 @@
 - Silenced several logspams.
 - More display rounded corner.
 
-## 12-Oct-2022
+## 12-Oct-2022 (v13.1)
 - Unitrix 4.9.330.
 - Fixed mobile data for Non-Indian Users.
 - Fixed mobile data in sim2.
@@ -31,5 +31,5 @@
 - Switched Audio HAL to V7.
 - Improved wifi scan.
 
-## 13-Sep-2022
+## 13-Sep-2022 (v13.0)
 - Initial A13 Release
