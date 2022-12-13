@@ -1,30 +1,35 @@
-# Flashing Instructions
+# ROM Flashing Instructions for vince
 
 ## Clean flash (Coming from a different ROM)
 - Download ROM.
-- Download Magisk* v25.2 or newer (optional).
-- Reboot to Recovery (See Recommended Recovery* in Useful links).
-- Wipe system, data, vendor, cache, dalvik
-- Flash latest stable Firmware* (Highly recommended. Use v11.0.3.0 China or v11.0.2.0 Global).
+- Download Gapps Package if ROM is Vanilla (Recommend to use either Nikgapps core/basic or Mindthegapps).
+> Note: On GApps ROM variant Google Apps are included, don't flash separately.
+- Reboot to Recovery (**You must use any of the recommended recovery. See Recommended Recoveries in Useful Links section**).
+- Wipe System, Data, Vendor, Cache, Dalvik/ART cache
+- **Flash latest stable Firmware (Highly recommended to flash any of the latest stable firmware before flashing ROM. See Firmware in Useful Links section)**
 - Flash ROM zip.
-- Flash Gapps Package* if ROM is vanilla.
-- Reboot and voila!
-- To get root access, reboot to recovery after ROM setup and flash Magisk.
+- Flash Gapps Package if ROM is Vanilla.
+- Reboot to system.
+- **To get root access, Reboot to recovery after ROM setup and flash Magisk.**
 
-## Updating to a newer build (Dirty flash)
+## Dirty flash (Updating to a newer build)
 - Do not wipe anything.
-- Flash ROM zip.
-- Flash the same GApps Package you installed before.
-- Flash Magisk (optional)
-- Wipe cache and dalvik only (optional)
-- Reboot and voila!
+- Flash new ROM zip.
+- **Flash the same GApps Package you flashed before.**
+- Flash Magisk if you are rooted before.
+- Wipe Cache and Dalvik/ART cache only (optional)
+- Reboot to system.
 
 ## Useful Links
-- Recommended Recovery:
-  * TWRP (official): https://dl.twrp.me/vince/twrp-3.7.0_12-0-vince.img.html
+- **Recommended Recoveries:**
+  * TWRP (Official): https://dl.twrp.me/vince/twrp-3.7.0_12-0-vince.img.html
+  * TWRP (Unofficial): https://github.com/starlight5234/android_device_xiaomi_vince-twrp/releases/download/r1/recovery.img
   * Orangefox: https://archive.orangefox.download/OrangeFox-Beta/vince/OrangeFox-R11.0_0-Beta-vince.zip
-- Firmware: https://xiaomifirmwareupdater.com/firmware/vince/
-- GApps Package:
+
+- **Latest Stable Firmware:** https://xiaomifirmwareupdater.com/firmware/vince/
+
+- **Recommended GApps Package:**
   * Nikgapps: https://nikgapps.com/
-  * Flamegapps: https://flamegapps.github.io/
-- Magisk: https://github.com/topjohnwu/Magisk/releases
+  * Mindthegapps (Use arm64 only): http://downloads.codefi.re/jdcteam/javelinanddart/gapps
+
+- **Magisk:** https://github.com/topjohnwu/Magisk/releases
