@@ -17,7 +17,7 @@
 - Flash new ROM zip.
 - **Flash the same GApps Package you flashed before.**
 - Flash Magisk if you are rooted before.
-- Wipe Cache and Dalvik/ART cache only (optional)
+- Wipe Cache and Dalvik/ART cache only.
 - Reboot to system.
 
 ## Useful Links
