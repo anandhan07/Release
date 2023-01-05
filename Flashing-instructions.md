@@ -1,11 +1,12 @@
-# ROM Flashing Instructions for vince
+# ROM Installation Instructions for vince
 
 ## Clean flash (Coming from a different ROM)
 - Download ROM.
 - Download Gapps Package if ROM is Vanilla (Recommend to use either Nikgapps core/basic or Mindthegapps).
-> Note: On GApps ROM variant Google Apps are included, don't flash separately.
+- `Note: On GApps ROM variant Google Apps are included, don't flash separately.`
 - Reboot to Recovery (**You must use any of the recommended recovery. See Recommended Recoveries in Useful Links section**).
-- Wipe System, Data, Vendor, Cache, Dalvik/ART cache
+- Wipe System, Data, Vendor, Cache, Dalvik/ART cache.
+- `Note: Format Data if you are coming from MIUI. Otherwise ROM won't boot.`
 - **Flash latest stable Firmware (Highly recommended to flash any of the latest stable firmware before flashing ROM. See Firmware in Useful Links section)**
 - Flash ROM zip.
 - Flash Gapps Package if ROM is Vanilla.
@@ -17,19 +18,19 @@
 - Flash new ROM zip.
 - **Flash the same GApps Package you flashed before.**
 - Flash Magisk if you are rooted before.
-- Wipe Cache and Dalvik/ART cache only (optional)
+- **Wipe Cache and Dalvik/ART cache.**
 - Reboot to system.
 
 ## Useful Links
 - **Recommended Recoveries:**
-  * TWRP (Official): https://dl.twrp.me/vince/twrp-3.7.0_12-0-vince.img.html
-  * TWRP (Unofficial): https://github.com/starlight5234/android_device_xiaomi_vince-twrp/releases/download/r1/recovery.img
-  * Orangefox: https://archive.orangefox.download/OrangeFox-Beta/vince/OrangeFox-R11.0_0-Beta-vince.zip
+  * <a href="https://dl.twrp.me/vince/twrp-3.7.0_12-0-vince.img.html" target="blank">TWRP 3.7.0 (Official)</a>
+  * <a href="https://github.com/starlight5234/android_device_xiaomi_vince-twrp/releases/download/r1/recovery.img" target="blank">TWRP 3.5.2 (Unofficial)</a>
+  * <a href="https://archive.orangefox.download/OrangeFox-Beta/vince/OrangeFox-R11.0_0-Beta-vince.zip" target="blank">Orangefox R11.0 Beta</a>
 
-- **Latest Stable Firmware:** https://xiaomifirmwareupdater.com/firmware/vince/
+- **Recommended Custom GApps Packages:**
+  * <a href="https://nikgapps.com/" target="blank">Nikgapps</a>
+  * <a href="http://downloads.codefi.re/jdcteam/javelinanddart/gapps" target="blank">Mindthegapps</a> (Use arm64 only)
 
-- **Recommended GApps Package:**
-  * Nikgapps: https://nikgapps.com/
-  * Mindthegapps (Use arm64 only): http://downloads.codefi.re/jdcteam/javelinanddart/gapps
-
-- **Magisk:** https://github.com/topjohnwu/Magisk/releases
+- <a href="https://andi34.github.io/faq/faq_twrp.html" target="blank">**How to Format Data using recovery?**</a>
+- <a href="https://xiaomifirmwareupdater.com/firmware/vince/" target="blank">**Latest Stable Firmware**</a>
+- <a href="https://github.com/topjohnwu/Magisk/releases" target="blank">**Magisk Releases**</a>
