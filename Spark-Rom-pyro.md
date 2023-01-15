@@ -1,5 +1,10 @@
 # Device Changelogs
 
+## 15-Jan-2023 (v13.4 Hotfix)
+- Fixed keyguard statusbar overlapping on Quick settings.
+- Fixed Privacy indicator dot spacing.
+- Removed BATTERY_CHARGING_CTL from thermal-engine.conf
+
 ## 14-Jan-2023 (v13.4)
 - Fixed no 2G/GSM option in Preferred Network Types.
 - Fixed Android Auto in GApps builds.
