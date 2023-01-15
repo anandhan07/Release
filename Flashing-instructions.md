@@ -4,10 +4,10 @@
 - Download ROM.
 - Download Gapps Package if ROM is Vanilla (Recommend to use either Nikgapps core/basic or Mindthegapps).
 - `Note: On GApps ROM variant Google Apps are included, don't flash separately.`
-- Reboot to Recovery (**You must use any of the recommended recovery. See Recommended Recoveries in Useful Links section**).
+- Reboot to Recovery (**You must use any of the recommended recovery. See Useful Links section**).
 - Wipe System, Data, Vendor, Cache, Dalvik/ART cache.
-- `Note: Format Data if you are coming from MIUI. Otherwise ROM won't boot.`
-- **Flash latest stable Firmware (Highly recommended to flash any of the latest stable firmware before flashing ROM. See Firmware in Useful Links section)**
+- `Note: If you are coming from MIUI or any encrypted ROM, Format data to remove encryption. Otherwise new ROM won't boot.`
+- **Flash latest stable Firmware (Highly recommended to flash any of the latest stable firmware before flashing ROM. See Useful Links section)**
 - Flash ROM zip.
 - Flash Gapps Package if ROM is Vanilla.
 - Reboot to system.
@@ -16,8 +16,8 @@
 ## Dirty flash (Updating to a newer build)
 - Do not wipe anything.
 - Flash new ROM zip.
-- **Flash the same GApps Package you flashed before.**
-- Flash Magisk if you are rooted before.
+- **Flash the same GApps Package again you flashed before (for vanilla users).**
+- Flash Magisk again if you are rooted before.
 - **Wipe Cache and Dalvik/ART cache.**
 - Reboot to system.
 

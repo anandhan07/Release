@@ -15,7 +15,7 @@
 - Fixed vulkan API support.
 - Fixed Bootanimation lag.
 
-## 16-Nov-2022 (v13.2)
+## 16-Nov-2022 (v13.2 Hotfix)
 - Fixed freezing issues in some cases.
 - Tuned surfaceflinger props for smoothness and better response.
 - Fixed notification delay in some apps.
