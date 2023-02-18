@@ -23,8 +23,7 @@
 
 ## Useful Links
 - **Recommended Recoveries:**
-  * <a href="https://dl.twrp.me/vince/twrp-3.7.0_12-0-vince.img.html" target="blank">TWRP 3.7.0 (Official)</a>
-  * <a href="https://github.com/starlight5234/android_device_xiaomi_vince-twrp/releases/download/r1/recovery.img" target="blank">TWRP 3.5.2 (Unofficial)</a>
+  * <a href="https://github.com/starlight5234/android_device_xiaomi_vince-twrp/releases/download/r1/recovery.img" target="blank">TWRP by Starlight</a>
   * <a href="https://archive.orangefox.download/OrangeFox-Beta/vince/OrangeFox-R11.0_0-Beta-vince.zip" target="blank">Orangefox R11.0 Beta</a>
 
 - **Recommended Custom GApps Packages:**
