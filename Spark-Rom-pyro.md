@@ -2,6 +2,15 @@
 
 # Device Changelogs
 
+## 25-March-2023 (v13.5.5)
+- Update perf stack from LA.VENDOR.1.0.r1-16000-WAIPIO.QSSI13.0
+- Camera improvements
+- Fixed Chrome remote debugging
+- Added Pocket Mode support
+- Back to skiaglthreaded
+- Set ZRAM Size to 1GB
+- Increase swappiness to 110
+
 ## 25-Feb-2023 (v13.5)
 - Switched to Revamped FMRadio (credits: iusmac)
 - Improved headset and earpiece volume a lil bit.
