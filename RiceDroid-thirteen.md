@@ -1,3 +1,5 @@
+![Lines of code](https://img.shields.io/badge/Update%20Status-EOL%20%2F%20Dropped-blue)
+
 # Device Changelogs
 
 ## 24-Feb-2023 (v10.2)

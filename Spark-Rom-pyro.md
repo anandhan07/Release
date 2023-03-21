@@ -1,3 +1,5 @@
+![Lines of code](https://img.shields.io/badge/Update%20Status-Active-orange)
+
 # Device Changelogs
 
 ## 25-Feb-2023 (v13.5)
