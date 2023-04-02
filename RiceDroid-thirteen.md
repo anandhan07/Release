@@ -1,6 +1,6 @@
 ![Lines of code](https://img.shields.io/badge/Update%20Status-EOL%20%2F%20Dropped-blue)
 
-# Device Changelogs
+# Device Changelog
 
 ## 24-Feb-2023 (v10.2)
 - Switched to Revamped FMRadio (credits: iusmac)

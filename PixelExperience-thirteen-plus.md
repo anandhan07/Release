@@ -1,6 +1,6 @@
 ![Lines of code](https://img.shields.io/badge/Update%20Status-Active-orange)
 
-# Device Changelogs
+# Device Changelog
 
 ## 23-Feb-2023
 - Unitrix kernel 4.9.337 (EOL)

@@ -1,6 +1,6 @@
 ![Lines of code](https://img.shields.io/badge/Update%20Status-Active-orange)
 
-# Device Changelogs
+# Device Changelog
 
 ## 25-March-2023 (v13.5.5)
 - Update perf stack from LA.VENDOR.1.0.r1-16000-WAIPIO.QSSI13.0
