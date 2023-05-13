@@ -1,27 +1,35 @@
-# ROM Installation Instructions for vince
+<h1 align="center">ROM Flashing instructions for vince</h1>
 
-## Clean flash (Coming from a different ROM)
-- Download ROM.
-- Download Gapps Package if ROM is Vanilla (Recommend to use either Nikgapps core/basic or Mindthegapps).
-- `Note: On GApps ROM variant Google Apps are included, don't flash separately.`
-- Reboot to Recovery (**You must use any of the recommended recovery. See Useful Links section**).
-- Wipe System, Data, Vendor, Cache, Dalvik/ART cache.
-- **Make sure you are on the latest firmware or just flash latest stable firmware (v11.0.3.0) before flashing ROM (See Useful Links section)**
-- Flash ROM zip.
-- Flash Gapps Package if ROM is Vanilla.
-- Reboot to system.
-- `Note: If you are coming from MIUI or any ROM which had ENCRYPTION, FORMAT DATA to remove encryption. Otherwise new ROM won't boot (See useful links section to know about Formatting data via recovery).`
-- **To get root access, Reboot to recovery after ROM setup and flash Magisk.zip**
+## :star: Clean flash (Coming from another ROM or If you want a fresh start)
+1. Download ROM
+2. Download Custom Google Apps Package (Like Nikgapps core/basic or Mindthegapps) if the ROM is Vanilla variant
 
-## Dirty flash (Updating to a newer build)
-- Do not wipe anything.
-- Flash new/update ROM zip.
-- **Flash the same GApps Package again you flashed before (for vanilla users).**
-- Flash Magisk again if you are rooted before.
-- **Wipe Cache and Dalvik/ART cache.**
-- Reboot to system.
+- **NOTE: On GApps ROM variant Google Apps are included, don't flash a separate Custom Google Apps package.**
 
-## Useful Links
+3. Reboot to Recovery **(You must use any of the recommended recovery. See Useful Links section)**
+4. Wipe System, Data, Vendor, Cache, Dalvik/ART cache partitions
+5. **Flash latest stable firmware v11.0.3.0 before flashing ROM** (See Useful Links section)
+6. Flash ROM zip
+7. Flash Custom Google Apps Package if the ROM is Vanilla variant
+8. Reboot to system
+
+:warning: **BOOTLOOP SITUATION**: If you are coming from stock/custom MIUI or any ROM which had **data ENCRYPTION**, you will face bootloop and can not boot into the system. In such case you need to **FORMAT data** after flashing the ROM. Otherwise the ROM you're trying to flash won't boot (See useful links section to know about how to format data via recovery)
+
+:hammer_and_wrench: To get root access, Reboot to recovery after ROM setup and flash Magisk.zip
+
+## :star: Dirty flash (Updating to a newer build)
+1. Download the new update ROM zip
+2. Reboot to recovery
+3. Do not wipe anything
+4. Flash the new update ROM zip
+
+- Flash the same Custom Google Apps Package again you flashed before **(For vanilla users)**
+- Flash Magisk again if you are rooted before **(For rooted users)**
+
+5. Wipe Cache and Dalvik/ART cache
+6. Reboot to system
+
+## :globe_with_meridians: Useful Links
 - **Recommended Recoveries:**
   * <a href="https://github.com/starlight5234/android_device_xiaomi_vince-twrp/releases/download/r1/recovery.img" target="blank">**TWRP by starlight5234**</a>
   * <a href="https://archive.orangefox.download/OrangeFox-Beta/vince/OrangeFox-R11.0_0-Beta-vince.zip" target="blank">**Orangefox R11.0 Beta**</a>
