@@ -2,6 +2,19 @@
 
 # Changelog
 
+## 13-May-2023
+- Merged May security patch (<a href="https://blog.pixelexperience.org/2023/05/quick-may-update/" target="blank">**Read PixelExperience Blog**</a>)
+- Fixed annoying beep sound in earpiece while incall-handset mode
+- Optimized dalvik heap configs (Don't forget to wipe Dalvik/ART Cache after flashing the update)
+- Disabled combined quicksettings headers (<a href="https://t.me/anandhansprojects_chat/22687?single" target="blank">**Reason**</a>)
+- Added back libllvm-qcom graphics blobs for vulkan API
+- Added option to Ignore window secure flags (Settings > Privacy)
+
+#### Kernel changes:
+- Removed CPU Boost in some events due to excessive battery drain
+- Overclocked GPU to 725MHz like darkages kernel (CPU speed remains same)
+- Fixed issues with magisk 26.1 compatibility
+
 ## 23-April-2023
 - Merged April security patch (<a href="https://blog.pixelexperience.org/2023/04/april-update/" target="blank">**Read PixelExperience Blog**</a>)
 - Update perf stack from LA.VENDOR.1.0.r1-16000-WAIPIO.QSSI13.0
