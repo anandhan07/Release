@@ -2,6 +2,21 @@
 
 # Device Changelog
 
+## 30-May-2023 (v13.6)
+- Fixed ViLTE or Carrier video calling
+- Addressed several sepolicy denials
+- Replaced Always On Display by Ambient Mode
+- Rollback to acdbdata from vince-user-8.1.0-OPM1.171019.019-V11.0.2.0.OEGMIXM-release-keys
+- Rollback to ADSP blobs & ADSP modules from daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
+- Removed useless audio blobs
+- Optimized dalvik heap configs
+- Disabled combined quicksettings headers due to lag while qs pulldown
+- Added back libllvm-qcom graphics blobs for proper vulkan API support
+- kernel: Enhanced charging speed
+- kernel: Scheduler improvements
+- kernel: Overclocked GPU to 725MHz like darkages kernel (CPU speed remains same)
+- kernel: Fixed issues with magisk 26.1 compatibility
+
 ## 25-March-2023 (v13.5.5)
 - Update perf stack from LA.VENDOR.1.0.r1-16000-WAIPIO.QSSI13.0
 - Camera improvements
