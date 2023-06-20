@@ -1,19 +1,20 @@
 <h1 align="center">ROM Flashing instructions for vince</h1>
 
+:warning: **WARNING**: This is a general flashing instructions for all android versions. But for Android 13; if you are coming from a stock/custom MIUI or any custom ROM on android version 9, 10, 11, 12 do a **FORMAT DATA** after clean flashing any Android 13 ROM to avoid bootloop, stuck at MI logo & Recovery logo (Refer Useful links section to know more about how to format data via recovery).</br>
+Read the guide carefully and follow all instructions. Happy flashing... 😉
+
 ## :star: Clean flash (Coming from another ROM or If you want a fresh start)
 1. Download ROM
 2. Download Custom Google Apps Package (Like Nikgapps core/basic or Mindthegapps) if the ROM is Vanilla variant
 
 - **NOTE: On GApps ROM variant Google Apps are included, don't flash a separate Custom Google Apps package.**
 
-3. Reboot to Recovery **(You must use any of the recommended recovery. See Useful Links section)**
+3. Reboot to Recovery **(You must use any of the recommended recovery. Refer Useful Links section)**
 4. Wipe System, Data, Vendor, Cache, Dalvik/ART cache partitions
-5. **Flash latest stable firmware v11.0.3.0 before flashing ROM** (See Useful Links section)
+5. **Flash latest stable firmware v11.0.2.0 or v11.0.3.0 before flashing ROM** (Refer Useful Links section)
 6. Flash ROM zip
 7. Flash Custom Google Apps Package if the ROM is Vanilla variant
 8. Reboot to system
-
-:warning: **BOOTLOOP SITUATION**: If you are coming from stock/custom MIUI or any ROM which had **data ENCRYPTION**, you will face bootloop and can not boot into the system. In such case you need to **FORMAT data** after flashing the ROM. Otherwise the ROM you're trying to flash won't boot (See useful links section to know about how to format data via recovery)
 
 :hammer_and_wrench: To get root access, Reboot to recovery after ROM setup and flash Magisk.zip
 
