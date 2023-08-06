@@ -2,6 +2,10 @@
 
 # Changelog
 
+## 06-Aug-2023
+- Merged July security patch (<a href="https://blog.pixelexperience.org/2023/07/july-update-is-there/" target="blank">**Read PixelExperience Blog**</a>)
+- Some minor fixes and improvements
+
 ## 13-May-2023
 - Merged May security patch (<a href="https://blog.pixelexperience.org/2023/05/quick-may-update/" target="blank">**Read PixelExperience Blog**</a>)
 - Fixed annoying beep sound in earpiece while incall-handset mode
