@@ -2,6 +2,11 @@
 
 # Changelog
 
+## 21-Aug-2023
+- Merged August security patch (<a href="https://blog.pixelexperience.org/2023/08/august-awakens-security-updates-optimization-fixes-and-sneak-peeks/" target="blank">**Read PixelExperience Blog**</a>)
+- Adress UI lags
+- Some minor fixes and improvements
+
 ## 06-Aug-2023
 - Merged July security patch (<a href="https://blog.pixelexperience.org/2023/07/july-update-is-there/" target="blank">**Read PixelExperience Blog**</a>)
 - Some minor fixes and improvements
