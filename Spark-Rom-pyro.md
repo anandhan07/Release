@@ -2,6 +2,10 @@
 
 # Device Changelog
 
+## 31-August-2023 (v13.7)
+- Added lineage charging control
+- Some minor fixes and improvements
+
 ## 30-May-2023 (v13.6)
 - Fixed ViLTE or Carrier video calling
 - Addressed several sepolicy denials
