@@ -1,6 +1,12 @@
-![Lines of code](https://img.shields.io/badge/Update%20Status-Active-orange)
+![Lines of code](https://img.shields.io/badge/Update%20Status-EOL%20%2F%20Dropped-blue)
 
 # Changelog
+
+## 05-October-2023
+- Merged September security patch (<a href="https://blog.pixelexperience.org/2023/09/surprising-september-security-update/" target="blank">**Read PixelExperience Blog**</a>)
+- Fixed occasional notification sync & internet connectivity issues on Google Play Store, Google Play Services and its components
+- Misc. fixes and optimizations
+- **Final Android 13 release**
 
 ## 21-Aug-2023
 - Merged August security patch (<a href="https://blog.pixelexperience.org/2023/08/august-awakens-security-updates-optimization-fixes-and-sneak-peeks/" target="blank">**Read PixelExperience Blog**</a>)
