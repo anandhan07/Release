@@ -1,4 +1,4 @@
-![Lines of code](https://img.shields.io/badge/Update%20Status-EOL%20%2F%20Dropped-blue)
+![Lines of code](https://img.shields.io/badge/Update%20Status-Discontinued-C61A09)
 
 # Device Changelog
 
